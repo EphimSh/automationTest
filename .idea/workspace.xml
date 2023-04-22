@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129c27be-3c54-48d5-bb0e-bd10d8f6fdeb" name="Changes" comment="" />
+    <list default="true" id="129c27be-3c54-48d5-bb0e-bd10d8f6fdeb" name="Changes" comment="ayo">
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1682133966148.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1682133966148.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PrimeKraftPOM/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrimeKraftPOM/UserProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrimeKraftPOM/UserProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AuthenticationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrimeKraftPOM/UserProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PrimeKraftPOM/UserProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AbstractTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AbstractTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingCartTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +30,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,17 +49,24 @@
     </option>
   </component>
   <component name="ProjectId" id="2OiU9cPowhAlJJIyFZnPd7ISzWp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gagarin8/IdeaProjects/MyAutomationTest2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ShoppingCartTest.goToShopCart">
+  <component name="RunManager" selected="JUnit.ShoppingCartTest.addItemsToTheShopCart">
     <configuration name="AuthenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationTest2" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,6 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShoppingCartTest.addItemsToTheShopCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyAutomationTest2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingCartTest" />
+      <option name="METHOD_NAME" value="addItemsToTheShopCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShoppingCartTest.goToShopCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyAutomationTest2" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,23 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserBehaviorTest.validCredentialsLogIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyAutomationTest2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserBehaviorTest" />
-      <option name="METHOD_NAME" value="validCredentialsLogIn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingCartTest.addItemsToTheShopCart" />
         <item itemvalue="JUnit.ShoppingCartTest.goToShopCart" />
         <item itemvalue="JUnit.AuthenticationTest.validCredentialsLogIn" />
         <item itemvalue="JUnit.AuthenticationTest" />
         <item itemvalue="JUnit.ShoppingCartTest" />
-        <item itemvalue="JUnit.UserBehaviorTest.validCredentialsLogIn" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +134,30 @@
       <option name="presentableId" value="Default" />
       <updated>1682042747424</updated>
     </task>
+    <task id="LOCAL-00001" summary="ayo">
+      <created>1682063504554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682063504554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ayo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ayo" />
   </component>
 </project>

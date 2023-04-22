@@ -1,3 +1,4 @@
+import PrimeKraftPOM.CatalogPage;
 import PrimeKraftPOM.MainPage;
 import PrimeKraftPOM.UserProfilePage;
 import com.codeborne.selenide.Configuration;
@@ -7,6 +8,8 @@ import io.qameta.allure.Description;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.FileInputStream;
@@ -20,13 +23,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class AbstractTest {
     private static Properties prop = new Properties();
     private static InputStream config;
-
     private static String username;
     private static String password;
     private static String baseURL;
 
     private MainPage mainPage = new MainPage();
     private UserProfilePage userProfilePage = new UserProfilePage();
+    private CatalogPage catalogPage = new CatalogPage();
+
+
 
     @BeforeAll
     @Description("this one runs to set configs for webDriver and get the credentials")
@@ -37,6 +42,8 @@ public class AbstractTest {
         chromeOptions.addArguments("--incognito");
         Configuration.browserCapabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
         Configuration.holdBrowserOpen = true;
+        Configuration.reportsFolder = "target/allure-results/screenshots";
+
         //Load properties
         config = new FileInputStream("src/main/resources/my.properties");
         prop.load(config);
@@ -73,5 +80,9 @@ public class AbstractTest {
 
     public UserProfilePage getUserProfilePage() {
         return userProfilePage;
+    }
+
+    public CatalogPage getCatalogPage() {
+        return catalogPage;
     }
 }

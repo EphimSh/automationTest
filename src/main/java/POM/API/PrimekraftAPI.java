@@ -6,11 +6,7 @@ public interface PrimekraftAPI {
 
     void submit();
 
-    void setValue();
 
-    void clickToAdd();
-
-    void clickToSubtract();
 
     By getUserName();
 }

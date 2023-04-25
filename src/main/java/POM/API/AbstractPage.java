@@ -6,11 +6,11 @@ import org.openqa.selenium.By;
 
 public abstract class AbstractPage implements PrimekraftAPI {
 
-    public SelenideElement $(String cssSelector) {
+    public static SelenideElement $(String cssSelector) {
         return Selenide.$(cssSelector);
     }
 
-    public SelenideElement $(By locator) {
+    public static SelenideElement $(By locator) {
         return Selenide.$(locator);
     }
 
@@ -45,13 +45,6 @@ public abstract class AbstractPage implements PrimekraftAPI {
     @Override
     public abstract void submit();
 
-    @Override
-    public abstract void setValue();
 
-    @Override
-    public abstract void clickToAdd();
-
-    @Override
-    public abstract void clickToSubtract();
 }
 

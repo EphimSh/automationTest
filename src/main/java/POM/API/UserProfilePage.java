@@ -25,15 +25,4 @@ public class UserProfilePage extends AbstractPage {
     public void submit() {
     }
 
-    @Override
-    public void setValue() {
-    }
-
-    @Override
-    public void clickToAdd() {
-    }
-
-    @Override
-    public void clickToSubtract() {
-    }
 }

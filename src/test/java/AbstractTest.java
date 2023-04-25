@@ -1,7 +1,4 @@
-import POM.API.CatalogPage;
-import POM.API.MainPage;
-import POM.API.ShopcartPage;
-import POM.API.UserProfilePage;
+import POM.API.*;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -23,6 +20,8 @@ public class AbstractTest {
     private static ShopcartPage shopcartPage = new ShopcartPage();
     private static CatalogPage catalogPage = new CatalogPage();
     private static UserProfilePage userProfilePage = new UserProfilePage();
+
+    private static MainHeader mainHeader = new MainHeader();
 
     private static String username;
 
@@ -72,6 +71,8 @@ public class AbstractTest {
     public static CatalogPage getCatalogPage() {
         return catalogPage;
     }
+
+    public static MainHeader getMainHeader(){return mainHeader;}
 
     public static String getUsername() {
         return username;

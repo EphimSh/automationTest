@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 
 public class MainPage extends AbstractPage {
 
-    public static final MainPage INSTANCE = new MainPage();
     private static final By LOGIN_BTN_XPATH = By.xpath("//div[@class='b-header-user']//div/a");
     private static final By LOGIN_FIELD_XPATH = By.xpath("//div[@class='fancybox-content']//input[@type='text']");
     private static final By PASSWORD_FIELD_XPATH = By.xpath("//div[@class='fancybox-content']//input[@type='password']");
@@ -31,22 +30,6 @@ public class MainPage extends AbstractPage {
     @Override
     public void submit() {
         $(AUTHENTICATE_BTN).click();
-    }
-
-
-
-    @Override
-    public void setValue() {
-    }
-
-    @Override
-    public void clickToAdd() {
-
-    }
-
-    @Override
-    public void clickToSubtract() {
-
     }
 
     @Override
